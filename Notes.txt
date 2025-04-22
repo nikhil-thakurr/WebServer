@@ -1,0 +1,32 @@
+In Java there is Garbage collector so anything we  declare in heap , we dont have to take care to remove it but in c++ there is no GC so we can use smart pointers
+
+static method resides in memory so it doesnot matter if u make its object or not 
+
+// Main method is public because JVM calls it , and it should be static as well as we do not want to create an object then calls it but it should be in memory whenever we need it .
+
+Java is Platform independent 
+Java is highy portable - WORA (write once , run anywhere)
+Java has 3 components - JVM < JRE < JDK
+
+JVM ( Java Virtual Machine ) It is Platform dependedent ,it will be different for mac os & windows 
+Java Program - compiler - ByteCode -  passed through JVM - Machine Code  -  CPU - Output
+JVM = .class
+
+Any code can be run by JVM irrespective where it was coded e.g mobile
+
+JRE (Java RunTime Environment)
+JRE = JVM + class libraries
+If you have JRE , You can run any Java Program
+
+
+JDK ( Java Development kit)
+JDK = JRE + (Prog Language + Debugger + Compiler + some other things)
+
+JSE = Java Standar Edition ( CORE JAVA )
+JEE = Java Enterprise edition  = JSE + Some Standard APIS Like transactional (commit,rollback) servlets,JSP
+JME = Java micro/mobile edition = Apis for mobile 
+
+
+Q - Why only one public class in JAVA class ? 
+ 1 . As JVM calls main ,it should be public
+ 2 . Class Name is Same as File Name
